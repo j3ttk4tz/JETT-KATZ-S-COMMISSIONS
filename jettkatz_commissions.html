@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JETTKATZ COMMISSIONS</title>
+  <style>
+    :root {
+      --main-bg: #002252;
+      --accent-dark: #003366;
+      --accent-mid: #335577;
+      --accent-light: #99bbcc;
+      --text-light: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--main-bg);
+      color: var(--text-light);
+    }
+
+    header {
+      background-color: var(--accent-dark);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: var(--text-light);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: var(--accent-mid);
+      padding: 0.75rem;
+    }
+
+    nav a {
+      color: var(--text-light);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    h2 {
+      color: var(--accent-light);
+      margin-bottom: 1rem;
+    }
+
+    .gallery img {
+      width: 200px;
+      border: 3px solid var(--accent-light);
+      border-radius: 10px;
+      margin: 0.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    table, th, td {
+      border: 1px solid var(--accent-light);
+    }
+
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JETTKATZ COMMISSIONS</h1>
+  </header>
+  <nav>
+    <a href="#samples">Samples</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#request">Request</a>
+  </nav>
+
+  <section id="samples">
+    <h2>Art Samples</h2>
+    <div class="gallery">
+      <img src="yay.png" alt="Sample 1">
+      <img src="seraphina pfp.jpg" alt="Sample 2">
+      <img src="jopoc.jpg" alt="Sample 3">
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing (Robux)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Price (Robux)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Head-shot</td>
+          <td>25–50</td>
+        </tr>
+        <tr>
+          <td>Bust</td>
+          <td>50–75</td>
+        </tr>
+        <tr>
+          <td>Portrait (Waist-up)</td>
+          <td>75–100</td>
+        </tr>
+        <tr>
+          <td>Full Body</td>
+          <td>100–150</td>
+        </tr>
+        <tr>
+          <td>Other / Custom</td>
+          <td>Starts at 150+</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top: 1rem; color: var(--accent-light);">Payments are made through group donations or gamepasses. Contact me after submitting your request for instructions!</p>
+  </section>
+
+  <section id="request">
+    <h2>Commission Request Form</h2>
+    <iframe src="https://forms.gle/gTisqng5jDhsFd8j7"></iframe>
+  </section>
+</body>
+</html>
